@@ -93,20 +93,22 @@ export default function App() {
               xAI Video Studio
             </h1>
           </div>
-          <p className="text-muted-foreground max-w-xl mx-auto mb-3">
+          <div className="inline-block mb-4 px-5 py-2.5 rounded-lg bg-gradient-to-r from-purple-600/20 to-blue-600/20 border border-purple-500/40">
+            <p className="text-sm font-medium">
+              Shared by{' '}
+              <a
+                href="https://x.com/KanaWorks_AI"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-bold text-purple-400 hover:text-purple-300 transition-colors"
+              >
+                @KanaWorks_AI
+              </a>
+              {' '}- Follow for more!
+            </p>
+          </div>
+          <p className="text-muted-foreground max-w-xl mx-auto">
             Generate and edit videos using xAI's Grok Imagine Video model.
-          </p>
-          <p className="text-sm">
-            Shared by{' '}
-            <a
-              href="https://x.com/KanaWorks_AI"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="font-semibold text-purple-400 hover:text-purple-300 transition-colors"
-            >
-              @KanaWorks_AI
-            </a>
-            {' '}- Follow for more!
           </p>
         </div>
 
