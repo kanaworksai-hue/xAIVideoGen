@@ -85,7 +85,7 @@ export default function App() {
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <div className="text-center mb-8">
-          <div className="inline-flex items-center gap-3 mb-4">
+          <div className="flex justify-center items-center gap-3 mb-4">
             <div className="p-3 rounded-xl bg-gradient-to-br from-purple-600 to-blue-600 text-white">
               <Video className="h-8 w-8" />
             </div>
@@ -93,19 +93,21 @@ export default function App() {
               xAI Video Studio
             </h1>
           </div>
-          <div className="inline-block mb-4 px-5 py-2.5 rounded-lg bg-gradient-to-r from-purple-600/20 to-blue-600/20 border border-purple-500/40">
-            <p className="text-sm font-medium">
-              Shared by{' '}
-              <a
-                href="https://x.com/KanaWorks_AI"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="font-bold text-purple-400 hover:text-purple-300 transition-colors"
-              >
-                @KanaWorks_AI
-              </a>
-              {' '}- Follow for more!
-            </p>
+          <div className="flex justify-center mb-4">
+            <div className="px-5 py-2.5 rounded-lg bg-gradient-to-r from-purple-600/20 to-blue-600/20 border border-purple-500/40">
+              <p className="text-sm font-medium">
+                Shared by{' '}
+                <a
+                  href="https://x.com/KanaWorks_AI"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-bold text-purple-400 hover:text-purple-300 transition-colors"
+                >
+                  @KanaWorks_AI
+                </a>
+                {' '}- Follow for more!
+              </p>
+            </div>
           </div>
           <p className="text-muted-foreground max-w-xl mx-auto">
             Generate and edit videos using xAI's Grok Imagine Video model.
